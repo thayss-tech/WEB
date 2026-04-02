@@ -1,53 +1,109 @@
 <div align="center">
-  <h1 align="center">🌐 Thayss Tech Hub | Frontend Architecture</h1>
-  <p align="center">
-    <strong>Arquitectura estática, diseño de interfaz y hub central de mi ecosistema profesional en Data Science.</strong>
-  </p>
+  <h1>🌐 Thayss Tech Hub</h1>
+  <p><strong>Static Frontend Architecture & Professional Data Science Hub</strong></p>
 
-  <p align="center">
-    <a href="https://thayss-tech.github.io/WEB/"><img src="https://img.shields.io/badge/Status-Producción-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="Status"></a>
-    <img src="https://img.shields.io/badge/HTML5-Semantic_Web-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
-    <img src="https://img.shields.io/badge/CSS3-Responsive-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
-    <a href="AQUI_TU_LINKEDIN"><img src="https://img.shields.io/badge/Red-LinkedIn-0077b5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <p>
+    <a href="https://thayss-tech.github.io/WEB/">
+      <img src="https://img.shields.io/badge/Status-Live-2ea44f?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+    <img src="https://img.shields.io/badge/HTML5-Semantic-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/CSS3-Responsive-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+    <img src="https://img.shields.io/badge/JavaScript-Vanilla-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
   </p>
 </div>
 
-<br>
+---
 
-## 📑 Tabla de Contenidos
-1. [Visión General de la Arquitectura](#-visión-general-de-la-arquitectura)
-2. [Características Técnicas y UX](#-características-técnicas-y-ux)
-3. [Topología del Repositorio](#-topología-del-repositorio)
-4. [Infraestructura y Despliegue](#-infraestructura-y-despliegue)
-5. [Integración con Modelos de Machine Learning](#-integración-con-modelos-de-machine-learning)
+## 📌 Overview
+
+This repository contains the source code of my professional website.
+
+It functions as a centralized hub that:
+
+- Presents my academic background in Theoretical Physics  
+- Showcases my transition into Data Science & Machine Learning  
+- Organizes and connects my technical projects  
+- Provides structured access for technical recruiters  
+
+The architecture prioritizes performance, clarity and full control over the frontend stack.
 
 ---
 
-## 📌 Visión General de la Arquitectura
+## 🧠 Design Philosophy
 
-Este repositorio contiene el código fuente **frontend** de mi plataforma profesional. Actúa como el punto de entrada centralizado (Hub) para reclutadores técnicos, consolidando mis credenciales y dirigiendo el tráfico de manera estructurada hacia mis pipelines de datos y modelos predictivos (Riesgo, Fraude, etc.).
+The platform was built using **Vanilla Web Development** (no heavy frameworks) to ensure:
 
-Se priorizó un enfoque de **Vanilla Web Development** (código puro sin frameworks pesados) para garantizar tiempos de carga mínimos, máxima personalización y control total sobre el DOM.
+- Minimal load times  
+- Maximum customization  
+- Clean DOM structure  
+- Full performance control  
+- Zero unnecessary dependencies  
 
-## ⚙️ Características Técnicas y UX
+The goal is simplicity, transparency and technical precision.
 
-* **Desarrollo Semántico:** Uso riguroso de etiquetas HTML5 para garantizar accesibilidad (a11y) y una correcta indexación.
-* **Diseño Adaptativo (Mobile-First):** Implementación de *Media Queries* en CSS3 que aseguran una renderización perfecta en cualquier resolución (smartphones, tablets, monitores).
-* **Rendimiento Optimizado:** * Carga asíncrona de recursos.
-  * Archivos estáticos e imágenes minimizadas.
-  * Cero dependencias de librerías externas que bloqueen el renderizado principal.
+---
 
-## 📂 Topología del Repositorio
+## ⚙️ Technical Characteristics
 
-La base del código sigue un estándar limpio de separación de responsabilidades (estructura, diseño y contenido):
+- Semantic HTML5 structure  
+- Mobile-First responsive design  
+- CSS modular organization  
+- Vanilla JavaScript for interactivity  
+- Optimized static assets  
+- GitHub Pages deployment  
 
-```text
-📦 thayss-tech.github.io/WEB
- ┣ 📜 index.html           # Estructura semántica principal (DOM)
- ┣ 📂 assets/              # Reglas de cascada, variables CSS y scripts de interactividad
- │  ┣ 📂 css/              # Hojas de estilo modularizadas
- │  ┣ 📂 js/               # Lógica de frontend e interacciones
- │  ┗ 📂 fonts/            # Tipografías web-safe optimizadas
- ┣ 📂 images/              # Recursos gráficos comprimidos para bajo consumo de banda
- ┣ 📂 certificates/        # Respaldos en PDF de certificaciones técnicas
- ┗ 📜 README.md            # Documentación técnica actual
+---
+
+## 📂 Repository Structure
+
+```
+📦 WEB/
+ ┣ 📜 index.html
+ ┣ 📂 assets/
+ │  ┣ 📂 css/
+ │  ┣ 📂 js/
+ │  ┗ 📂 fonts/
+ ┣ 📂 images/
+ ┣ 📂 certificates/
+ ┗ 📜 README.md
+```
+
+The separation follows clean responsibility principles:
+
+- Structure → HTML  
+- Styling → CSS  
+- Logic → JavaScript  
+- Static assets → Organized and compressed  
+
+---
+
+## 🚀 Deployment
+
+This website is deployed using **GitHub Pages**.
+
+Live version:  
+👉 https://thayss-tech.github.io/WEB/
+
+---
+
+## 🔗 Ecosystem Integration
+
+This repository serves as the presentation layer of a broader technical ecosystem that includes:
+
+- Machine Learning models  
+- Risk modeling systems  
+- Fraud detection pipelines  
+- Automation workflows  
+
+Each technical project is maintained in its own repository.
+
+---
+
+## 📬 Contact
+
+- GitHub: https://github.com/thayss-tech  
+- LinkedIn: (add your link)
+
+---
+
+⭐ Designed as a professional gateway for technical opportunities in data-driven environments.
