@@ -1,6 +1,6 @@
 <div align="center">
   <h1> 🌐Thayss Tech Hub</h1>
-  <p><strong>Applied Data Science Portfolio</strong></p>
+  <p><strong>Static Frontend Architecture  </strong></p>
 
   <p>
     <a href="https://thayss-tech.github.io/WEB/">
