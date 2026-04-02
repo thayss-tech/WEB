@@ -1,114 +1,150 @@
 <div align="center">
-  <h1>Thayss Tech Hub</h1>
-  <p><strong>Professional Website & Centralized Architecture</strong></p>
+
+<br />
+  <h1>🌐 Thayss Tech Hub</h1>
+  <p><strong>Professional Portfolio & Centralized Engineering Architecture</strong></p>
 
   <p>
     <a href="https://thayss-tech.github.io/WEB/">
-      <img src="https://img.shields.io/badge/Website-Live-2ea44f?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Website-Live-2ea44f?style=for-the-badge&logo=github&logoColor=white" />
     </a>
-    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+    <img src="https://img.shields.io/badge/Data_Science-Interface-informational?style=for-the-badge&logo=python&logoColor=white" />
   </p>
+
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" />
+    <img src="https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=sass&logoColor=white" />
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+  </p>
+
 </div>
 
 ---
 
 ## 📑 Table of Contents
 
-- [Overview](#overview)
-- [Architectural Model](#architectural-model)
-- [Core Engine: `assets/`](#core-engine-assets)
-- [Content & Validation](#content--validation)
-- [Repository Map](#repository-map)
-- [Deployment](#deployment)
-- [Contact](#contact)
+| Section | Description |
+| :--- | :--- |
+| **💡 Overview** | Project mission and context. |
+| **🏗️ Architecture** | Technical flow and design principles. |
+| **⚙️ Core Engine** | Breakdown of logic and visual systems. |
+| **🏅 Validation** | Professional certificates structure. |
+| **🗺️ Repository Map** | Directory tree visualization. |
+| **🚀 Deployment** | Live access information. |
+| **📩 Contact** | Professional links. |
 
 ---
 
-## Overview
+## 💡 Overview
 
-This repository contains the full source code and infrastructure of my professional website. 
+This repository contains the full source code and infrastructure of my professional website.
 
-It functions as a **centralized technical hub**, explicitly designed to:
-- Present my analytical background in Theoretical Physics.
-- Showcase applied Data Science and Machine Learning projects.
-- Provide structured, transparent access for technical evaluation.
+It functions as a **centralized technical gateway**, explicitly engineered to:
 
-The development objective for this platform is maximum clarity, performance, and technical transparency without relying on heavy frameworks.
+* **⚛️ Present** my analytical background in Theoretical Physics.
+* **📊 Showcase** applied Data Science and Machine Learning projects.
+* **🔍 Provide** structured, transparent access for technical evaluation.
 
----
-
-## Architectural Model
-
-The website is built on a **Single Page Architecture (SPA-style static model)**. 
-
-    User Request → index.html → assets/ (logic + style) → media & certificates
-
-The structure prioritizes:
-- **Performance:** Lightweight loading with zero backend dependency.
-- **Maintainability:** Clear separation of concerns (HTML for structure, SASS/CSS for design, Vanilla JS for interaction).
-- **Full Control:** Direct manipulation of the frontend stack.
+> *The core development objective is maximum clarity, performance, and technical transparency without relying on heavy frameworks.*
 
 ---
 
-## Core Engine: `assets/`
+## 🏗️ Architectural Model
 
-The `assets/` directory acts as the operational core of the platform, divided logically into four subsystems:
+The platform is designed following a high-performance **Single Page Architecture (SPA-style static model)**.
 
-### 1. `css/` & `sass/` — Visual Engineering
-Controls the entire visual identity, built using SASS for modularity.
-- `main.scss` compiles into `main.css`, managing layout, typography, and responsive behavior.
-- SASS implementation allows for scalable variable management and modular component design.
-- Includes `noscript.css` as a fallback design for environments with disabled JavaScript.
+### Operational Flow
 
-### 2. `js/` — Interaction Layer
-Manages dynamic behavior and viewport responsiveness.
-- `main.js`: Core logic for smooth scrolling, animations, and interaction.
-- `breakpoints.min.js`: Real-time responsive behavior controller.
-- Supported by utility libraries to ensure cross-browser compatibility.
+```mermaid
+graph LR
+    A[🌐 User Request] --> B{📄 index.html}
+    B -- Structure --> B
+    B -- Logic & Dynamics --> C[⚙️ assets/js/]
+    B -- Styling & Responsive --> D[🎨 assets/css/]
+    C & D --> E(🖼️ images/ & 🏅 certificates/)
+```
 
-### 3. `webfonts/` — Icon Infrastructure
-Locally hosted FontAwesome libraries (.woff, .woff2, .ttf, .svg) guaranteeing independent icon rendering across all browsers (Chrome, Safari, Firefox, Edge) and legacy systems.
-
----
-
-## Content & Validation
-
-Beyond the core engine, the repository is structured to hold professional assets:
-
-- **`images/`**: Contains visual assets, including tool icons (n8n, GCP), technical stack representations, and structural layouts.
-- **`certificates/`**: Hosts documentation validating technical expertise, acting as professional anchors (e.g., Google Cloud Platform and Machine Learning with Python certifications).
+#### Engineering Principles
+* **⚡ Performance:** Lightweight, instant loading, zero backend overhead.
+* **🛠️ Maintainability:** Strict separation of concerns (HTML/SASS/JS).
+* **🎮 Full Control:** Direct manipulation of the vanilla frontend stack.
 
 ---
 
-## Repository Map
+## ⚙️ Core Engine: `assets/`
 
-    WEB/
-     ┣ index.html          # Structural Core (Main Document)
-     ┣ assets/             # Technical Engine
-     ┃ ┣ css/              # Compiled Styles
-     ┃ ┣ js/               # Interaction Logic
-     ┃ ┣ sass/             # Source Styling
-     ┃ ┗ webfonts/         # Typography & Icons
-     ┣ images/             # Visual Assets
-     ┣ certificates/       # Professional Validation
-     ┣ LICENSE
-     ┗ README.md           # Project Documentation
+The OPERATIONAL CORE of the platform, logically organized into four primary engineering subsystems:
 
----
+<div align="center">
 
-## Deployment
+| Subsystem | Icon | Description | Key Files |
+| :--- | :---: | :--- | :--- |
+| **Visual Engineering** | 🎨 | Controls identity, layout, and responsiveness using SASS. | `main.scss`, `main.css`, `noscript.css` |
+| **Interaction Layer** | ⚙️ | Manages dynamic behavior, animations, and viewport adjustments. | `main.js`, `breakpoints.min.js`, `jquery.min.js` |
+| **Design Engineering** | 🔧 | The source SCSS architecture (variables, mixins, modules). | `_vars.scss`, `components/`, `layout/` |
+| **Icon Infrastructure** | 🔠 | Locally hosted FontAwesome fonts for cross-browser reliability. | `.woff2`, `.ttf`, `.svg` |
 
-The platform is deployed via **GitHub Pages**, ensuring high availability, continuous static reliability, and fast global loading.
-
-📍 **Live version:** [https://thayss-tech.github.io/WEB/](https://thayss-tech.github.io/WEB/)
+</div>
 
 ---
 
-## Contact
+## 🏅 Professional Validation
 
-- **GitHub:** [thayss-tech](https://github.com/thayss-tech)
-- **LinkedIn:** [Milton Mamani](https://www.linkedin.com/in/milton-mamani-1369a537b)
+Beyond the technology stack, the repository is structured to hold and present critical professional assets:
 
-> *Designed as a structured technical gateway for data-driven environments.*
+* **🖼️ `images/` Directory:** Hosts optimized visual representations of the tech stack (GCP, Python logos) and structural layouts.
+* **🏅 `certificates/` Directory:** Securely stores documentation validating technical expertise, serving as professional credibility anchors.
+    * *Examples:* Google Cloud Platform Certification, Machine Learning with Python Certification.
+
+---
+
+## 🗺️ Repository Map
+
+```text
+WEB/
+ ┃
+ ┣ 📄 index.html          # Structural Core (Master Document)
+ ┣ 📁 assets/             # Technical Engine
+ ┃ ┣ 🎨 css/              # Compiled Styles
+ ┃ ┣ ⚙️ js/               # Interaction Logic
+ ┃ ┣ 🔧 sass/             # Source Styling SASS
+ ┃ ┗ 🔠 webfonts/         # Typography & Icons
+ ┃
+ ┣ 🖼️ images/             # Visual Assets & Tech Stack Icons
+ ┣ 🏅 certificates/       # Professional Credentials
+ ┃
+ ┣ ⚖️ LICENSE             # Usage Rights
+ ┗ 📄 README.md           # Project Documentation
+```
+
+---
+
+## 🚀 Deployment
+
+The technical gateway is deployed utilizing **GitHub Pages**, ensuring:
+
+* **Global Availability**
+* **Continuous Static Reliability**
+* **Fast Loading via CDN**
+
+| Type | Link |
+| :--- | :--- |
+| **🌐 Live Version** | [https://thayss-tech.github.io/WEB/](https://thayss-tech.github.io/WEB/) |
+
+---
+
+## 📩 Contact
+
+<div align="center">
+
+| Platform | Profile | Action |
+| :--- | :--- | :--- |
+| **LinkedIn** | Milton Mamani | [View Profile](https://www.linkedin.com/in/milton-mamani-1369a537b) |
+| **GitHub** | thayss-tech | [Explore Repos](https://github.com/thayss-tech) |
+
+<br />
+
+> *Designed with precision as a structured technical gateway for data-driven environments.*
+
+</div>
