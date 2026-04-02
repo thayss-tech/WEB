@@ -30,6 +30,7 @@
 | **🏗️ Architecture** | Technical flow and design principles. |
 | **⚙️ Core Engine** | Breakdown of logic and visual systems. |
 | **🏅 Validation** | Professional certificates structure. |
+| **🛠️ Customization** | How to use this site as your own template. |
 | **🗺️ Repository Map** | Directory tree visualization. |
 | **🚀 Deployment** | Live access information. |
 | **📩 Contact** | Professional links. |
@@ -96,6 +97,16 @@ Beyond the technology stack, the repository is structured to hold and present cr
 * **🖼️ `images/` Directory:** Hosts optimized visual representations of the tech stack (GCP, Python logos) and structural layouts.
 * **🏅 `certificates/` Directory:** Securely stores documentation validating technical expertise, serving as professional credibility anchors.
     * *Examples:* Google Cloud Platform Certification, Machine Learning with Python Certification.
+
+---
+
+## 🛠️ Quick Customization (For Beginners)
+
+If you like this design and want to use it as a template for your own portfolio, you don't need to be a programming expert! Just follow these 3 simple steps:
+
+1. **📝 Edit the Text:** Open the `index.html` file in any basic text editor (like Notepad or VS Code). Here you can safely type your name, your summary, and replace my text with your own.
+2. **🖼️ Add Your Media:** Upload your own photos and PDF/JPG documents into the `images/` and `certificates/` folders. *(Tip: Just make sure to update the file names inside the `index.html` so the code knows what to show!).*
+3. **🎨 Change the Design:** If you want to change colors, adjust sizes, or modify the visual structure of the page, head over to the `assets/css/` folder and edit the `main.css` file.
 
 ---
 
