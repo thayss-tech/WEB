@@ -44,7 +44,7 @@
 | [**🏗️ Architecture**](#architecture) | Technical flow and design principles. |
 | [**⚙️ Core Engine**](#core-engine) | Breakdown of logic and visual systems. |
 | [**🏅 Validation**](#validation) | Professional certificates structure. |
-| [**🛠️ Customization**](#customization) | How to use this site as your own template. |
+| [**🛠️ Customization (For Beginners)**](#customization) | How to use this site as your own template. |
 | [**🗺️ Repository Map**](#repository-map) | Directory tree visualization. |
 | [**🚀 Deployment**](#deployment) | Live access information. |
 | [**📩 Contact**](#contact) | Professional links. |
