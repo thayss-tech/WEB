@@ -1,26 +1,42 @@
-# 🌐 Thayss - Data Science Portfolio Web
+<div align="center">
 
-¡Hola! 👋 Bienvenido/a al código fuente de mi página web personal.
+# 🚀 Thayss | Data Science Portfolio
+**Arquitectura frontend y código fuente de mi espacio profesional.**
 
-Este repositorio contiene el código estático que da vida a mi portafolio online. Aquí presento mi perfil profesional y centralizo mis proyectos técnicos enfocados en **Data Science**, **Machine Learning** y **Análisis de Datos**.
+[![Website](https://img.shields.io/badge/🌐_Visitar_Web-Live-blue?style=for-the-badge)](https://thayss-tech.github.io/WEB/)
+[![Proyectos](https://img.shields.io/badge/📊_Modelos_Machine_Learning-GitHub-2ea44f?style=for-the-badge)](AQUI_TU_LINK_DEL_REPO_DE_PROYECTOS)
+[![LinkedIn](https://img.shields.io/badge/💼_Conectar_en-LinkedIn-0077b5?style=for-the-badge)](AQUI_TU_LINKEDIN)
 
-## 🔗 Enlaces Importantes
+<br>
+<i>Tech Stack del Portafolio:</i><br><br>
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=github&logoColor=white" alt="GitHub Pages" />
 
-* 🚀 **Web en vivo:** [Visitar mi Portafolio](https://thayss-tech.github.io/WEB/)
-* 📊 **Proyectos Técnicos:** [Ver Repositorio de Proyectos de Data Science](AQUI_IRA_EL_LINK_DE_TU_NUEVO_REPO_DE_PROYECTOS)
-* 💼 **LinkedIn:** [Mi perfil profesional](AQUI_IRA_TU_LINKEDIN)
+</div>
 
-## 🛠️ Tecnologías y Despliegue
-
-* **Frontend:** HTML5 semántico y CSS3 (Diseño 100% Responsive).
-* **Despliegue:** Servidor estático alojado mediante **GitHub Pages**.
-
-## 📂 Estructura del Repositorio
-
-* `index.html`: Archivo principal y estructura de la página.
-* `/assets/`: Hojas de estilo (CSS), fuentes y scripts de interactividad.
-* `/images/`: Recursos gráficos e imágenes optimizadas del portafolio.
-* `/certificates/`: Respaldos en PDF de mis certificaciones técnicas.
+<br>
 
 ---
-*Nota de atribución: El diseño base de la interfaz gráfica fue adaptado y personalizado a partir de la plantilla "Miniport" creada por [HTML5 UP](https://html5up.net), utilizada bajo licencia CCA 3.0.*
+
+## 🎯 Sobre este repositorio
+
+Este ecosistema contiene exclusivamente la **arquitectura web estática** que aloja mi presentación profesional. Todo el código analítico, pipelines de datos y modelos predictivos (Risk Modeling, Fraud Detection) se encuentran debidamente modularizados en su [propio repositorio dedicado](AQUI_TU_LINK_DEL_REPO_DE_PROYECTOS).
+
+<br>
+
+## 📸 Vista Previa
+<div align="center">
+  <img src="images/TU_CAPTURA_DE_PANTALLA.png" alt="Preview del Portafolio" width="800">
+</div>
+
+<br>
+
+## 📂 Arquitectura del Directorio
+
+```text
+📦 WEB (Main Branch)
+ ┣ 📜 index.html        # Estructura semántica principal y contenido
+ ┣ 📂 assets/           # Hojas de estilo (CSS), fuentes y lógica de UI
+ ┣ 📂 images/           # Recursos gráficos optimizados para la web
+ ┗ 📂 certificates/     # Documentación y credenciales en PDF
